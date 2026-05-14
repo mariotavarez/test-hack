@@ -1,6 +1,8 @@
-# test-hack
-
-1. El Pedido (El Contexto)
+export function GeneratedWorkspace() {
+  return (
+    <main className="min-h-screen bg-[var(--app-bg)] text-[var(--app-text)] p-6">
+      <h1>test-hack</h1>
+      <p>1. El Pedido (El Contexto)
 Imagina que es viernes por la noche. El AutoMac está lleno, la app está procesando miles de pedidos por segundo y nuestros clientes quieren su comida caliente, rápida y con una sonrisa. El problema es que, a veces, la tecnología se siente como una máquina de helados en mantenimiento: necesita un ajuste.
 
 2. El Ingrediente Faltante (El Problema)
@@ -32,32 +34,7 @@ Funcional: Que corra más rápido que nuestro servicio en el mostrador.
 
 Escalable: Que funcione en una sucursal en Buenos Aires o en un kiosco en Tokio.
 
-Delicioso: Que la interfaz sea tan intuitiva que hasta un niño (o un abuelo) pueda usarla sin preguntar.
-
-## Package Manager
-This project is configured for **pnpm**. If you prefer a different one, delete the lock file and reinstall.
-
-| Tool  | Install        | Run dev         |
-|-------|----------------|-----------------|
-| npm   | `npm install`  | `npm run dev`  |
-| pnpm  | `pnpm install` | `pnpm dev`     |
-| bun   | `bun install`  | `bun run dev`  |
-
-## Architecture
-- **Style:** feature-based
-- **Design System:** Supabase (dark)
-- **Lines per component:** 200
-- **Prefabs:** primary-button, secondary-button, input-field, select-menu, modal-dialog, stat-card, surface-card, skeleton-loader
-- **Patterns:** Compound Components, Headless Component, Slot Composition, Container/Presentational
-- **Automation root:** opencode
-- **Automation preset:** balanced-default
-- **Skills:** PR Summary, Commit Message, Review Diff, Test Triage, Playwright E2E, Security Review
-- **Agents:** Code Reviewer, Test Engineer, PR Manager, Security Engineer
-- **Sub-agents:** Diff Reviewer, Test Runner
-- **Commands:** /pr, /commit, /review, /test
-- **Rules:** Commit Convention, PR Standard, Testing Policy, Review Expectations, Architecture Principles
-
-## Quick Start
-```bash
-pnpm install && pnpm dev
-```
+Delicioso: Que la interfaz sea tan intuitiva que hasta un niño (o un abuelo) pueda usarla sin preguntar.</p>
+    </main>
+  )
+}

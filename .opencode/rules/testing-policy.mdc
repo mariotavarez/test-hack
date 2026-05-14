@@ -1,0 +1,22 @@
+---
+description: "States when unit, integration, and e2e tests are required."
+alwaysApply: false
+globs: ["**/*"]
+---
+
+# Testing Policy
+> Standard: Testing workflow
+
+## Intent
+States when unit, integration, and e2e tests are required.
+
+## Rule
+- Behavior changes should be verified at the most appropriate test level.
+- Avoid brittle tests that mirror implementation details too closely.
+- Document when coverage is intentionally deferred and why.
+
+## References
+
+- [Vitest](https://vitest.dev/)
+- [Testing Library](https://testing-library.com/)
+

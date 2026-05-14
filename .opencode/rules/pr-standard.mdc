@@ -1,0 +1,21 @@
+---
+description: "Defines PR title, summary, checklist, and testing expectations."
+alwaysApply: false
+globs: ["**/*"]
+---
+
+# PR Standard
+> Standard: GitHub PRs
+
+## Intent
+Defines PR title, summary, checklist, and testing expectations.
+
+## Rule
+- Every PR should explain why the change exists, not only what changed.
+- Include testing notes and any known gaps or follow-ups.
+- Call out rollout or migration concerns before requesting review.
+
+## References
+
+- [GitHub Pull Requests](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests)
+

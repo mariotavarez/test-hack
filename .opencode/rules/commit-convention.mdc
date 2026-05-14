@@ -1,0 +1,21 @@
+---
+description: "Enforces Conventional Commits and intention-revealing commit boundaries."
+alwaysApply: false
+globs: ["**/*"]
+---
+
+# Commit Convention
+> Standard: Conventional Commits
+
+## Intent
+Enforces Conventional Commits and intention-revealing commit boundaries.
+
+## Rule
+- Use Conventional Commit prefixes that reflect the type of change.
+- Keep commits focused so each one tells a coherent story.
+- Avoid bundling unrelated refactors with behavior changes.
+
+## References
+
+- [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)
+

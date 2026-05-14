@@ -1,0 +1,21 @@
+---
+description: "Encodes layer boundaries, dependency direction, and preferred extension points."
+alwaysApply: false
+globs: ["**/*"]
+---
+
+# Architecture Principles
+> Standard: Cursor rules
+
+## Intent
+Encodes layer boundaries, dependency direction, and preferred extension points.
+
+## Rule
+- Keep dependencies flowing in one clear direction across layers.
+- Prefer reusing established patterns over introducing novel abstractions.
+- Do not cross domain boundaries for convenience.
+
+## References
+
+- [Cursor Rules](https://cursor.com/docs/context/rules)
+

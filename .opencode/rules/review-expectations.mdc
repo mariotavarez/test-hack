@@ -1,0 +1,21 @@
+---
+description: "Forces review output to prioritize bugs, regressions, and missing coverage."
+alwaysApply: false
+globs: ["**/*"]
+---
+
+# Review Expectations
+> Standard: Review workflow
+
+## Intent
+Forces review output to prioritize bugs, regressions, and missing coverage.
+
+## Rule
+- Reviews should lead with findings, not praise or long summaries.
+- Prioritize correctness and risk before style or formatting.
+- Mention residual uncertainty and testing gaps when no bug is found.
+
+## References
+
+- [GitHub Pull Requests](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests)
+
